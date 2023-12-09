@@ -1,0 +1,19 @@
+# 読み込む画像のフォルダパス
+input_path: 'input'
+
+# 出力するフォルダパス
+output_path: 'output'
+
+# 出力CSVのファイル名
+output_csv: 'point.csv'
+
+# 出力CJSONのファイル名
+output_json: 'point.json'
+
+# 色の辞書を定義する
+colors:
+  red: [0, 0, 255] #red
+  green: [0, 255, 0] #green
+  blue: [255, 0, 0] #blue
+  pink: [198, 0, 255] #pink
+  yellow: [0, 198, 255] #yellow
