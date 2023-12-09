@@ -4,13 +4,14 @@ input_path: 'input'
 # 出力するフォルダパス
 output_path: 'output'
 
-# 出力CSVのファイル名
+# 出力するCSVのファイル名
 output_csv: 'point.csv'
 
-# 出力CJSONのファイル名
+# 出力するJSONのファイル名
 output_json: 'point.json'
 
-# 色の辞書を定義する
+# 色の辞書をRGB値で定義する
+# キー名は任意で良い
 colors:
   red: [0, 0, 255] #red
   green: [0, 255, 0] #green
