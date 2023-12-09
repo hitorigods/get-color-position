@@ -91,7 +91,7 @@ colors = config['colors']
 
 # 出力パスが存在しない場合は作成する
 if not os.path.exists(output_path):
-    os.makedirs(output_path)
+	os.makedirs(output_path)
 
 # CSVファイルを作成
 create_csv_file(output_csv)
