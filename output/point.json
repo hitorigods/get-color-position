@@ -3,140 +3,140 @@
 		"scene": "01_01",
 		"ext": "png",
 		"target": "red",
-		"x": 145,
-		"y": 96
+		"cx": 145,
+		"cy": 96
 	},
 	{
 		"scene": "01_01",
 		"ext": "png",
 		"target": "green",
-		"x": 968,
-		"y": 196
+		"cx": 968,
+		"cy": 196
 	},
 	{
 		"scene": "01_01",
 		"ext": "png",
 		"target": "blue",
-		"x": 401,
-		"y": 438
+		"cx": 401,
+		"cy": 438
 	},
 	{
 		"scene": "01_01",
 		"ext": "png",
 		"target": "pink",
-		"x": 1102,
-		"y": 689
+		"cx": 1102,
+		"cy": 689
 	},
 	{
 		"scene": "01_01",
 		"ext": "png",
 		"target": "yellow",
-		"x": 126,
-		"y": 626
+		"cx": 126,
+		"cy": 626
 	},
 	{
 		"scene": "01_02",
 		"ext": "png",
 		"target": "red",
-		"x": 354,
-		"y": 222
+		"cx": 354,
+		"cy": 222
 	},
 	{
 		"scene": "01_02",
 		"ext": "png",
 		"target": "pink",
-		"x": 813,
-		"y": 588
+		"cx": 813,
+		"cy": 588
 	},
 	{
 		"scene": "01_02",
 		"ext": "png",
 		"target": "yellow",
-		"x": 682,
-		"y": 515
+		"cx": 682,
+		"cy": 515
 	},
 	{
 		"scene": "01_03",
 		"ext": "png",
 		"target": "green",
-		"x": 720,
-		"y": 212
+		"cx": 720,
+		"cy": 212
 	},
 	{
 		"scene": "01_03",
 		"ext": "png",
 		"target": "blue",
-		"x": 1204,
-		"y": 748
+		"cx": 1204,
+		"cy": 748
 	},
 	{
 		"scene": "01_03",
 		"ext": "png",
 		"target": "pink",
-		"x": 158,
-		"y": 106
+		"cx": 158,
+		"cy": 106
 	},
 	{
 		"scene": "01_03",
 		"ext": "png",
 		"target": "yellow",
-		"x": 427,
-		"y": 336
+		"cx": 427,
+		"cy": 336
 	},
 	{
 		"scene": "02_02",
 		"ext": "png",
 		"target": "red",
-		"x": 643,
-		"y": 314
+		"cx": 643,
+		"cy": 314
 	},
 	{
 		"scene": "02_02",
 		"ext": "png",
 		"target": "green",
-		"x": 1127,
-		"y": 661
+		"cx": 1127,
+		"cy": 661
 	},
 	{
 		"scene": "02_02",
 		"ext": "png",
 		"target": "blue",
-		"x": 88,
-		"y": 56
+		"cx": 88,
+		"cy": 56
 	},
 	{
 		"scene": "02_03",
 		"ext": "png",
 		"target": "red",
-		"x": 649,
-		"y": 388
+		"cx": 649,
+		"cy": 388
 	},
 	{
 		"scene": "02_03",
 		"ext": "png",
 		"target": "green",
-		"x": 648,
-		"y": 398
+		"cx": 648,
+		"cy": 398
 	},
 	{
 		"scene": "02_03",
 		"ext": "png",
 		"target": "blue",
-		"x": 640,
-		"y": 389
+		"cx": 640,
+		"cy": 389
 	},
 	{
 		"scene": "02_03",
 		"ext": "png",
 		"target": "pink",
-		"x": 648,
-		"y": 379
+		"cx": 648,
+		"cy": 379
 	},
 	{
 		"scene": "02_03",
 		"ext": "png",
 		"target": "yellow",
-		"x": 657,
-		"y": 389
+		"cx": 657,
+		"cy": 389
 	}
 ]

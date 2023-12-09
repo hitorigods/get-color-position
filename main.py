@@ -15,26 +15,26 @@ def load_config(file_path):
 def create_csv_file(file_path):
 	with open(file_path, 'w', newline='') as f:
 		writer = csv.writer(f)
-		writer.writerow(['scene', 'ext', 'target', 'x', 'y'])
+		writer.writerow(['scene', 'ext', 'target', 'cx', 'cy'])
 
 # CSVデータに情報を追加する関数
-def add_to_csv_data(data, img_path, color, cx, cy):
+def add_to_csv_data(data, scene, ext, color, cx, cy):
 	data.append([
-		os.path.basename(img_path).split('.')[0],
-		os.path.splitext(img_path)[1][1:],
+		scene,
+		ext,
 		color,
 		cx,
 		cy
 	])
 
 # JSONデータに情報を追加する関数
-def add_to_json_data(data, img_path, color, cx, cy):
+def add_to_json_data(data, scene, ext, color, cx, cy):
 	data.append({
-		'scene': os.path.basename(img_path).split('.')[0],
-		'ext': os.path.splitext(img_path)[1][1:],
+		'scene': scene,
+		'ext': ext,
 		'target': color,
-		'x': cx,
-		'y': cy
+		'cx': cx,
+		'cy': cy
 	})
 
 # CSVファイルに書き込む関数
@@ -66,10 +66,13 @@ def process_images(input_path, output_csv, output_json, colors):
 			if moments['m00'] != 0:
 				cx = int(moments['m10'] / moments['m00'])
 				cy = int(moments['m01'] / moments['m00'])
+				# 画像ファイル名から格納したい情報を取得
+				scene = os.path.basename(img_path).split('.')[0]
+				ext = os.path.splitext(img_path)[1][1:]
 				# CSVデータに情報を追加
-				add_to_csv_data(csv_data, img_path, color, cx, cy)
+				add_to_csv_data(csv_data, scene, ext, color, cx, cy)
 				# JSONデータに情報を追加
-				add_to_json_data(json_data, img_path, color, cx, cy)
+				add_to_json_data(json_data, scene, ext, color, cx, cy)
 	# CSVファイルに書き込む
 	write_to_csv_file(output_csv, csv_data)
 	# JSONファイルに書き込む
@@ -81,7 +84,6 @@ config = load_config('config.yaml')
 input_path = config['input_path']
 # 出力パスを取得
 output_path = config['output_path']
-
 # CSVファイルのパスを取得
 output_csv = os.path.join(output_path, config['output_csv'])
 # JSONファイルのパスを取得
