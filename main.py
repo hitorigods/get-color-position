@@ -30,7 +30,7 @@ def add_to_json_data(data, img_path, color, cx, cy):
 # JSONファイルに書き込む関数
 def write_to_json_file(file_path, data):
 	with open(file_path, 'w') as f:
-		json.dump(data, f, indent=4)
+		json.dump(data, f, indent='\t')
 
 # 画像を処理する関数
 def process_images(input_path, output_csv, output_json, colors):
