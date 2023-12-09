@@ -103,5 +103,40 @@
         "target": "blue",
         "x": 88,
         "y": 56
+    },
+    {
+        "scene": "02_03",
+        "extension": "png",
+        "target": "red",
+        "x": 649,
+        "y": 388
+    },
+    {
+        "scene": "02_03",
+        "extension": "png",
+        "target": "green",
+        "x": 648,
+        "y": 398
+    },
+    {
+        "scene": "02_03",
+        "extension": "png",
+        "target": "blue",
+        "x": 640,
+        "y": 389
+    },
+    {
+        "scene": "02_03",
+        "extension": "png",
+        "target": "pink",
+        "x": 648,
+        "y": 379
+    },
+    {
+        "scene": "02_03",
+        "extension": "png",
+        "target": "yellow",
+        "x": 657,
+        "y": 389
     }
 ]
