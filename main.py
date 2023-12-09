@@ -15,13 +15,13 @@ def load_config(file_path):
 def create_csv_file(file_path):
     with open(file_path, 'w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['scene', 'extension', 'target', 'x', 'y'])
+        writer.writerow(['scene', 'ext', 'target', 'x', 'y'])
 
 # JSONデータに情報を追加する関数
 def add_to_json_data(data, img_path, color, cx, cy):
     data.append({
         'scene': os.path.basename(img_path).split('.')[0],
-        'extension': os.path.splitext(img_path)[1][1:],
+        'ext': os.path.splitext(img_path)[1][1:],
         'target': color,
         'x': cx,
         'y': cy
