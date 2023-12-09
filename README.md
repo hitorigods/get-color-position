@@ -7,13 +7,13 @@
 ※インストール済みなら不要
 
 ```
-$ python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 ## ライブラリをインストール
 
 ```
-$ pip install opencv-python numpy PyYAML
+pip install opencv-python numpy PyYAML
 ```
 
 # 設定
@@ -23,7 +23,7 @@ $ pip install opencv-python numpy PyYAML
 # 実行
 
 ```
-$ python main.py
+python main.py
 ```
 
 # 補足
@@ -32,4 +32,4 @@ $ python main.py
 - ファイルは`UTF-8`、改行コードは`LF`形式
 - 出力ファイルは`output_path`に指定したフォルダ内に保存されます
 - CSV と JSON の両方の形式で出力されます
-- CSV と JSON の出力データには、読み込んだ画像のファイル名（拡張子を除く）、拡張子、色名、x 座標、y 座標が含まれます
+- CSV と JSON の出力データには、読み込んだ画像のファイル名（拡張子を除く）、拡張子、カラーキー、x 座標、y 座標が含まれます

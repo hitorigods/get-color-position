@@ -11,7 +11,7 @@ output_csv: 'point.csv'
 output_json: 'point.json'
 
 # 色の辞書をRGB値で定義する
-# キー名は任意で良い
+# キー名は任意
 colors:
   red: [0, 0, 255] #red
   green: [0, 255, 0] #green
